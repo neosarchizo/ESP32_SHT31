@@ -8,8 +8,6 @@
 
 static char tag[] = "neosarchizo";
 
-rgbVal *pixels;
-
 void app_main() {
 	ESP_LOGD(tag, "sht31 initialize");
 	sht31_init();
